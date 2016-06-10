@@ -1,7 +1,7 @@
 // The input SCSS files and the SCSS output path
 var scssInput = [
-	'scss/style.scss',
-	'scss/print.scss'
+  'scss/custom.scss',
+	'scss/color-red.scss'
 	];
 var scssOutput = 'app/css';
 

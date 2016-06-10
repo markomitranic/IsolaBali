@@ -1,7 +1,7 @@
 ### My Custom Ignore List ###
-app/css/style.css
-app/css/print.css
-
+app/css/custom.css
+app/css/color-red.css
+_DesignFiles
 
 
 # Created by https://www.gitignore.io/api/node,osx,windows
