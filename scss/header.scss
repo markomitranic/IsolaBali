@@ -1,11 +1,33 @@
 // We have replaced the logo, so it needs some centering now.
-@media screen and (min-width: 768px) {
 	.navbar .navbar-header {
 		width: 140px;
+
+		@media (max-width: 768px) {
+			width: 100%;	
+		}
 
 		.navbar-brand {
 			padding: 0;
 			margin-top: -10px;
+
+			@media (max-width: 768px) {
+			    padding: 0 0 0 15px;
+			    margin: 0;
+			}
+			img {
+				@media (max-width: 768px) {
+					display: none;
+				}
+			}
+			.mobile-logo {
+				display: none;
+				height: 100%;
+			    width: auto;
+			    padding: 7px;
+
+				@media (max-width: 768px) {
+					display: block;
+				}
+			}
 		}
 	}
-}
